@@ -5,20 +5,20 @@ Membuat S3
 
 -Buat Nama Bucket (unik diseluruh dunia),region
 
--Set Permission (Object = Everyone -read)
+-Object ownership (ACLs Enabled)
+
+-Unthick block all public access
 
 *Klik Nama bucket
 
--Pilih properties | Static web hosting
+-1. bagian object
 
--Use this bucket to host a website, isi index.html, save
+-upload file | permission - grant public permission access
 
--Pilih Objects |upload index.html |manage public permission (Object = Everyone -read) |upload
+-2. bagian properties
 
-*Cek website statik
+-Pilih  Static web hosting |edit |enabled
 
--Pilih properties | Static web hosting
-
--copy endpoint | paste di browswer
+-isi index.html
 
 
