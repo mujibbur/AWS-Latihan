@@ -3,7 +3,7 @@ Membuat S3
 
 *Create New Bucket
 
--Buat Nama Bucket (unik diseluruh dunia),region
+-Buat Nama Bucket (unik diseluruh dunia, sesuai nama domain),region
 
 -Object ownership (ACLs Enabled)
 
@@ -20,5 +20,15 @@ Membuat S3
 -Pilih  Static web hosting |edit |enabled
 
 -isi index.html
+
+ROute 53
+
+-DNS Management (created hosted zone)
+
+-Domain name (sesuai nama domain dan bucket s3)
+
+-public hosted zone
+
+-create record | aktifkan alias | pilih s3 endpoint | region | s3 endpoint
 
 
