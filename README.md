@@ -11,5 +11,4 @@ Membuat S3
 -Pilih properties | Static web hosting
 -copy endpoint | paste di browswer
 
-Membuat API
 
