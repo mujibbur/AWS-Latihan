@@ -90,7 +90,9 @@ Menyambungkan API dengan Aplikasi Web
 
 -buka website |masih ada eror TypeError: Failed to fetch (karena mengaktifkan CORES, dan browser menolak cross-origin), solusi membolehkan cross-origin
 
--ke lambda |pilih function |code |bagian headers tambahkan "Access-Control-Allow-Origin : '*'"
+-ke lambda |pilih function |code |bagian headers tambahkan 'Access-Control-Allow-Origin' : '*',
+
+-deploy
 
 -Cek aplikasi web
 
