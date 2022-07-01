@@ -35,7 +35,7 @@ Lambda
 
 -Create function | Use blueprint | microservice-http-endpoint
 
--Function Name |Role Name| Security| Create Function
+-Function Name |Role Name| REST API|Security-open| Create Function
 
 DynamoDB
 
