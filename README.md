@@ -31,4 +31,20 @@ ROute 53
 
 -create record | aktifkan alias | pilih s3 endpoint | region | s3 endpoint
 
+Lambda
 
+-Create function | Use blueprint | microservice-http-endpoint
+
+-Function Name |Role Name| Security| Create Function
+
+DynamoDB
+
+-Create table | table name |primary key |create table
+
+-Explore items|create item |
+
+Lambda+DynamoDB
+
+-lambda function |test
+
+-test |create event name |template (hello-world)|save &test
