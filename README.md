@@ -47,4 +47,17 @@ Lambda+DynamoDB
 
 -lambda function |test
 
--test |create event name |template (hello-world)|save &test
+-test |create event name |template (hello-world)|save &test |cek status 200
+
+-cek dynamodb | table | explore item
+
+API Gateway
+
+-Klik nama API | klik ANY | Klik TEST
+
+-Isi method POST | Request body - pakai file API-Gateway-POST-Test
+
+-Klik Test |Cek status 200
+
+-cek dynamodb | table | explore item
+
