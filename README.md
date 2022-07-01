@@ -41,7 +41,9 @@ DynamoDB
 
 -Create table | table name |primary key |create table
 
--Explore items|create item |
+-Klik Nama table |Action|Create item
+
+-Explore items|cek hasil
 
 Lambda+DynamoDB
 
