@@ -86,6 +86,8 @@ Menyambungkan API dengan Aplikasi Web
 
 -edit index.html |tambahkan di bagian form-action dengan invoke URL
 
+-upload index.html bersama bundle.js ke S3
+
 -buka website |masih ada eror TypeError: Failed to fetch (karena mengaktifkan CORES, dan browser menolak cross-origin), solusi membolehkan cross-origin
 
 -ke lambda |pilih function |code |bagian headers tambahkan "Access-Control-Allow-Origin : '*'"
