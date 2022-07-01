@@ -61,3 +61,32 @@ API Gateway
 
 -cek dynamodb | table | explore item
 
+
+Akses API dari luar
+
+-API Gateway |Klik nama API | Action |Deploy API
+
+-Deployment Stage - New | Stage name -test|Stage description |Deployment description -versi 1 inisialisasi |Deploy
+
+-expand bagian Stage -test |pilih POST | copy invoke URL
+
+-dari commandline pakai file cURL-command-line-POST-test
+
+-Tambahkan diakhir baris invoke URL
+
+-paste dan jalankan di command prompt
+
+-cek dynamodb | table | explore item
+
+Menyambungkan API dengan Aplikasi Web
+
+-API Gateway |stages | test|post |invoke URL
+
+-edit index.html |tambahkan di bagian form-action dengan invoke URL
+
+- buka website |masih ada eror TypeError: Failed to fetch (karena mengaktifkan CORES, dan browser menolak cross-origin), solusi membolehkan cross-origin
+
+- ke lambda |pilih function |code |bagian headers tambahkan "Access-Control-Allow-Origin : '*'"
+
+- Cek aplikasi web
+
