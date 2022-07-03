@@ -49,7 +49,7 @@ Lambda+DynamoDB
 
 -lambda function |test
 
--test |create event name |template (hello-world)|save &test |cek status 200
+-test |create event name |template (hello-world)| hapus isi file hello world ganti dg isi file lambda_test_POST |save &test |cek status 200
 
 -cek dynamodb | table | explore item
 
